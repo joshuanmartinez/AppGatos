@@ -1,0 +1,64 @@
+<html lang="es">
+  <head>
+  <title>AppDeGatos</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Roboto:wght@700&family=Style+Script&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  </head>
+    <body>
+     <h2>AppDeGatos</h2>
+     <main>
+       <h3>Imagenes de Gatos:</h3>
+       <!--TODO: Agregar enlace a imagenes de gatos-->
+       <p>Haz click aqui para ver mas <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">imagen-de-gato</a></p>
+       <img class="bordes-redondeados" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSY8q0BGS5fXCWZMHuEhuX8k5x6bgkQAW3RQ&usqp=CAU" class="imagen-de-gato" alt="Un lindo gato naranja recostado sobre su espalda">
+       
+       <hr>
+
+
+       <h3>Listas de Gatos</h3>
+       
+       <div>
+
+       <p>Cosas que los gatos <em>aman</em>:</p>
+       <ul>
+       <li>Menta gatuna</li>
+       <li>Apuntadores Laser</li>
+       <li><s>Lasaña</s></li>
+       </ul>
+       <br><br><img class="bordes-redondeados" src="imagenes/lasana.jpg" alt="Lasana"></main></br></br>
+       
+       <p>Cosas que los gatos <strong> odian</strong>:</p>
+       <ol>
+       <li>Tratamiento Antipulgas</li>
+       <li>Truenos</li>
+       <li>Otros Gatos</li>
+       </ol>
+      </div>
+       <img class="bordes-redondeados" src="imagenes/gatitos.jpg" alt="gatos">
+
+       <form action="/enviar-respuesta">
+        <!--botones de radio-->
+         <label for="interior"><input id="interior" type="radio" value="interior" name="interior-exterior" checked>Inrerior</label><br>
+
+         <label for="exterior"><input id="interior" type="radio" value="exterior" name="interior-exterior">Exterior</label><br>
+
+         <!--casillas de verificacion-->
+         <label for="cariñoso"><input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad" checked>Cariñoso</label><br>
+         <label for="perezoso"><input id="cariñoso" type="checkbox" value="perezoso" name="personalidad" >Perezoso</label><br>
+         <label for="enérgico"><input id="cariñoso" type="checkbox" value="enérgico" name="personalidad" >Enérgico</label><br>
+
+         
+         <!--Texto y boton enviar-->
+        <input type="text" placeholder="URL de la foto de tu gato" required><br>
+
+        <button type="submit">Enviar</button>
+       </form>
+    </main>
+    <footer>
+      <p><small>Sin derechos de Autor - <a href="https://www.freecodecamp.org/espanol/">freeCodeCamp.org</a></small></p>
+    </footer>
+  </body>
+</html>
